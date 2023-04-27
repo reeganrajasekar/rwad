@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
 html,body{
-    margin:0px
+    margin:0px;
+    font-family: 'League Spartan';
 }
 .carousel-caption > h5{
     font-size: 3rem;
@@ -21,6 +25,7 @@ html,body{
 .box >h5{
     color:white;
     text-align: center;
+    font-size:28px;
 }
 .join{
     text-align: center;
@@ -113,8 +118,8 @@ transform: translate(0%, 0%) rotate(0deg) ;
 .img_hold > h2{
     font-size: 2rem;
     font-weight: 800;
-    color: #3b486f;
-    background-color: #f0f0f0;
+    color: white;
+    text-shadow: 0px 2px gray;
     border-radius: 5px;
     padding:10px
 }
@@ -146,6 +151,13 @@ transform: translate(0%, 0%) rotate(0deg) ;
     background-size: cover;
     background-origin: content-box;
 }
+.gaz_bg{
+    background-image: url("/static/img/gaz.PNG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
 .about{
     text-align: center;
 }
@@ -160,4 +172,72 @@ transform: translate(0%, 0%) rotate(0deg) ;
 }
 .about > p{
     text-align: justify;
+    color: #3b486f;
+    font-size:22px
 }
+.nav-link.active{
+    font-weight:900 !important;
+}
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+    opacity: 1;
+    transform:translate(-50%) scaleX(1.0) scaleY(1.0);
+}
+.dropdown-menu{
+    margin-top:2px;
+    left:50%;
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 200ms;
+    border: 1px solid #eee; 
+    transform:translate(-50%) scaleX(0.2) scaleY(0.2);
+    padding: 10px;
+}
+.dropdown-item{
+    color:#3b486f;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .dropdown-item:hover{
+    border-radius: 5px;
+    background-color: #3b486f;
+    color:#fff
+  }
+
+  .dropdown-item.active{
+    border-radius: 5px;
+    background-color: #3b486f;
+    color:#fff
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+    .dropdown-menu{
+      margin-top:7px;
+      transform: none !important;
+      display: none !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      transform:none !important;
+    }
+    .dropdown:hover .dropdown-menu{
+      display: block !important;
+      transform:none !important;
+  
+    }
+  }
+  @media screen and (max-device-width: 640px) {
+    .dropdown-menu{
+      margin-top:7px;
+      transform: none !important;
+      display: none !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      transform:none !important;
+    }
+    .dropdown:hover .dropdown-menu{
+      display: block !important;
+      transform:none !important;
+  
+    }
+  }

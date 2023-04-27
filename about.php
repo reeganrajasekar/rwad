@@ -24,17 +24,37 @@
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/about.php">About</a>
+                        <a class="nav-link active" aria-current="page" href="/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/sponsored.php">Sponsored&ensp;By RWAD</a>
+                        <a class="nav-link" aria-current="page" href="/sponsored.php">Sponsored By RWAD</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        RWAD Gazette
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/gazette/talks.php">RWAD Talks</a></li>
+                            <li><a class="dropdown-item" href="/gazette/xworldcup.php">RWAD X World Cup</a></li>
+                            <li><a class="dropdown-item" href="/gazette/xwinter.php">RWAD X PMU Winter</a></li>
+                            <li><a class="dropdown-item" href="/gazette/ci.php">RWAD Community Initiative</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/contact.php">Contact</a>
                     </li>
-                    <li class="nav-item rounded" style="background-color:white;">
-                        <a class="nav-link" aria-current="page" href="/entrepreneurs" style="color:#3b486f">Join / Login</a>
+                    <li class="nav-item dropdown rounded" style="background-color:white;">
+                        <a class="nav-link dropdown-toggle" style="color:#3b486f" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Join / Login
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/entrepreneurs">Entrepreneurs</a></li>
+                            <li><a class="dropdown-item" href="/entrepreneurs">Speakers</a></li>
+                            <li><a class="dropdown-item" href="/member">Members Login</a></li>
+                            <li><a class="dropdown-item" href="/admin">Admin Login</a></li>
+                        </ul>
                     </li>
+                    
                 </ul>
             </div>
             <a class="navbar-brand d-none d-lg-block" href="#"><img src="/static/img/logo.png" style="height:40px" alt="Logo">&ensp;RWAD CLUB</a>
@@ -61,9 +81,11 @@
             </div>
         </section>
         <section class="box-1">
-            <h5 class="container py-5">Visit our social media accounts: instagram and tiktok @rwadpmu</h5>
-            <p><a href="/admin">Admin Login</a> - <a href="/member">Member Login</a></p>
-
+            <h5 class="container py-4">
+                Visit our social media accounts: instagram and tiktok @rwadpmu
+                <br><br>
+                &copy; <script>document.write(new Date().getFullYear())</script>, Rwad.com
+            </h5>
         </section>
     </main>
 

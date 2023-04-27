@@ -1,3 +1,11 @@
+<?php
+session_start();
+if(isset($_SESSION["memberid"])){
+
+}else{
+    header("Location:/member?err=Something Went Wrong!");
+    die();
+}?>
 <!DOCTYPE html>
 <html lang="en">
 

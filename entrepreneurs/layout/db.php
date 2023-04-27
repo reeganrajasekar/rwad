@@ -1,11 +1,5 @@
 <?php
-session_start();
-if(isset($_SESSION["enid"])){
 
-}else{
-    header("Location:/entrepreneurs?err=Something Went Wrong!");
-    die();
-}
 $servername = "localhost";
 $username = "root";
 $password = "trysomething";

@@ -25,7 +25,7 @@
             ?>
             
             <div class="msg left-msg">
-                <div class="msg-img" style="display:flex;justify-content:center;align-items:center;font-size:22px;color:white">Mem</div>
+                <div class="msg-img" style="display:flex;justify-content:center;align-items:center;font-size:22px;color:white">En</div>
                 <div class="msg-bubble">
                     <div class="msg-info">
                         <div class="msg-info-name"><?php echo $row["name"] ?></div>
@@ -41,7 +41,7 @@
             ?>
             
             <div class="msg right-msg">
-                <div class="msg-img" style="display:flex;justify-content:center;align-items:center;font-size:22px;color:white">En</div>
+                <div class="msg-img" style="display:flex;justify-content:center;align-items:center;font-size:22px;color:white">Mem</div>
                 <div class="msg-bubble">
                     <div class="msg-info">
                         <div class="msg-info-name"><?php echo $row["name"] ?></div>

@@ -1,11 +1,5 @@
 <?php
-session_start();
-if(isset($_SESSION["memberid"])){
 
-}else{
-    header("Location:/member?err=Something Went Wrong!");
-    die();
-}
 $servername = "localhost";
 $username = "root";
 $password = "trysomething";

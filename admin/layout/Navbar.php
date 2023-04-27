@@ -24,6 +24,13 @@
   </li>
 
   <li class="nav-item">
+    <a class="nav-link collapsed" href="/admin/gaz.php">
+      <i class="bi bi-grid"></i>
+      <span>RWAD Gazette</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
     <a class="nav-link collapsed" href="/admin/activities.php">
       <i class="bi bi-grid"></i>
       <span>Activities</span>

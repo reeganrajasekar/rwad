@@ -108,6 +108,24 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating table: Chat";
 }
 
+
+$sql = "CREATE TABLE IF NOT EXISTS gaz (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(500) NOT NULL,
+    type VARCHAR(500) NOT NULL,
+    data VARCHAR(500) NOT NULL,
+    date VARCHAR(50) NOT NULL,
+    img VARCHAR(500) NOT NULL,
+    link VARCHAR(500) NOT NULL
+);";
+
+
+if ($conn->query($sql) === TRUE) {
+    echo "Table Gaz created successfully<br>";
+} else {
+    echo "Error creating table: Gaz";
+}
+
 $conn->close();
 
 

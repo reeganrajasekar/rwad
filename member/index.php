@@ -54,7 +54,7 @@
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">National Id</label>
                       <div class="input-group has-validation">
-                        <input type="text" name="nid" class="form-control" id="yourUsername" required>
+                        <input type="number" name="nid" class="form-control" id="yourUsername" required>
                         <div class="invalid-feedback">Please enter your Nid.</div>
                       </div>
                     </div>
